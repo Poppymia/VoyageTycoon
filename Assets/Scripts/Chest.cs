@@ -15,7 +15,7 @@ public class Chest : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
-    void OnMouseDown()
+    /*void OnMouseDown()
     {
         if (!opened)
         {
@@ -23,6 +23,30 @@ public class Chest : MonoBehaviour
             opened = true;
             sr.sprite = openSprite;
             StartCoroutine(ShowPopup());
+
+            //link to TutorialManager class
+            FindObjectOfType<TutorialManager>().OnChestOpened();
+        }
+    }*/
+
+    void OnMouseDown()
+    {
+        if (!opened)
+        {
+            if (GameManager.instance != null)
+                GameManager.instance.AddCoins(coinAmount);
+
+            opened = true;
+
+            if (sr != null && openSprite != null)
+                sr.sprite = openSprite;
+
+            if (popupText != null)
+                StartCoroutine(ShowPopup());
+
+            TutorialManager tm = FindObjectOfType<TutorialManager>();
+            if (tm != null)
+                tm.OnChestOpened();
         }
     }
 

@@ -60,13 +60,21 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
+<<<<<<< HEAD
         "*.unity": "yaml"
+=======
+        "*.unity": "yaml",
+>>>>>>> 364eddeb56d286eb9f49391109030ed830618030
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
+<<<<<<< HEAD
     "dotnet.defaultSolution": "VoyageTycoon-tutorialScene.slnx",
+=======
+    "dotnet.defaultSolution": "VoyageTycoon.slnx",
+>>>>>>> 364eddeb56d286eb9f49391109030ed830618030
     "dotnet.enableWorkspaceBasedDevelopment": false
 }

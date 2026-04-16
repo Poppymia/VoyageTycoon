@@ -256,6 +256,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &290847024
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +398,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 364eddeb56d286eb9f49391109030ed830618030
 --- !u!1 &355191178
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,10 +2514,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirate_01
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5481701035122274872, guid: 70387be04a3dba4428b899e3a877079a, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+=======
+>>>>>>> 364eddeb56d286eb9f49391109030ed830618030
     - target: {fileID: 8015910331062749276, guid: 70387be04a3dba4428b899e3a877079a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.21
@@ -2886,4 +2892,7 @@ SceneRoots:
   - {fileID: 1036969797}
   - {fileID: 1275025408}
   - {fileID: 1498715714}
+<<<<<<< HEAD
   - {fileID: 290847028}
+=======
+>>>>>>> 364eddeb56d286eb9f49391109030ed830618030
